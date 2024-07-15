@@ -1,3 +1,260 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'EL Morabit Rachid CV'
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "EL Morabit Rachid"
+        tagline = "Junior Software Engineer"
+        avatar = "avatar.png"
+
+
+    [params.contact]
+        enable = true
+        location = "Casablanca, Morocco"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+212 652694221"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "elrachidmorabit@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.rachid12.github.io"
+        [[params.contact.list]]
+        icon = "fas fa-birthday-cake"
+        text = "22 years old"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Python/Ruby/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Engineering Degree in Artificial Intelligence and Computer Science"
+        university = "ENSAM Casablanca"
+        url = "//ensam-casa.ma"
+        location = "Casablanca, Morocco"
+        dates = "2019 - 2024"
+
+        [[params.education.list]]
+        degree = "Baccalaureate in Physics (with highest honour)"
+        university = "GST"
+        url = "//www.gstazi.com"
+        location = "Casablanca, Morocco"
+        dates = "2019"
+
+
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        name = "ISTQB"
+        body = "International Software testing Qualifications Board"
+        date = "2024"
+        [[params.certifications.list]]
+        name = "DeepLearning.AI"
+        body = "GenerativeAI with Large LanguageModels (LLMs)"
+        date = "2024"
+        [[params.certifications.list]]
+        name = "Oracle cloud infrastructure (OCI)"
+        body = "OCI Foundations Associate Certificate"
+        date = "October 2023"
+        [[params.certifications.list]]
+        name = "Nanodegree Udacity"
+        body = "Machine Learning Fundamentals"
+        date = "October 2023"
+        [[params.certifications.list]]
+        name = "Nanodegree Udacity"
+        body = "AI programming with Python Nanodegree"
+        date = "March 2023"
+        [[params.certifications.list]]
+        name = "MongoDB University"
+        body = "MongoDB Basics, Administration MongoDB"
+        date = "2022"
+        [[params.certifications.list]]
+        name = "HUAWEI"
+        body = "HCIA (5G), HCSA (IP Network Sales, Sales Storage, Digital Power, Transmission and Access, Intelligent Collaboration)"
+        date = "2022"
+        [[params.certifications.list]]
+        name = "CISCO"
+        body = "NDG Linux Unhatched, PCAP (programming essentials in Python)"
+        date = "2021/2022"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Arabic"
+        level = "Native"
+        [[params.languages.list]]
+        name = "French"
+        level = "Fluent, C1"
+        [[params.languages.list]]
+        name = "English"
+        level = "Fluent, C1"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Intermediate, B1"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "Reading Socio-cultural and technical books"
+        [[params.interests.list]]
+        name = "Watching movies and series"
+
+
+    [params.summary]
+        enable = true
+        text = "Passionate and motivated Junior Software Engineer with comprehensive knowledge in computer science and a strong foundation in full-stack development, microservices, and databases. Skilled in AI concepts, including machine learning and deep learning, as well as in software testing methodologies. Adept at contributing to innovative projects and solving complex problems through technical expertise and collaborative teamwork. Eager to leverage my skills in a dynamic and challenging environment."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2019 - Present"
+        company = "Google"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2016 - 2019"
+        company = "Apple"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2014 - 2016"
+        company = "Dropbox"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Senior Developer"
+        dates = "2013 - 2014"
+        company = "Uber"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+        [[params.experience.list]]
+        title = "Backend Developer"
+        dates = "2014 - 2016"
+        company = "Amazon"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
