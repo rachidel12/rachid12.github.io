@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = '../public'
 languageCode = 'en-us'
 title = 'EL Morabit Rachid CV'
 theme = "hugo-devresume-theme"
@@ -44,28 +44,72 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Backend Development"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Spring Boot/Laravel/JEE"
+        [[params.skills.list]]
+        title = "Frontend Development"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "Next Js/React js/Angular js/CSS (bootstrap, semantic UI, Sass)/Javascript (DOM, Jquery)"
+        [[params.skills.list]]
+        title = "Microservice architecture"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Docker/Kubernetes/Spring cloud/Eureka/Hystrix/Zuul..."
+        [[params.skills.list]]
+        title = "Software Testing"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Unit Tests (Junit, Mockito), Integration Tests(Postman, Newman, Selenium...), Acceptance Tests(Robot Framework, Selenium...), PACT Tests(PACT, PACT Broker), Performance Tests(Jmeter, Taurus, JtlReporter, Blazemeter), Security Tests(OWASP Zap)."
+        [[params.skills.list]]
+        title = "Data Science"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
+        details = "Python/Matlab/R language"
+        [[params.skills.list]]
+        title = "Machine Learning"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        details = "Scikit-learn/Tensorflow"
+        [[params.skills.list]]
+        title = "Deep Learning"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Pytorch/Tensorflow keras"
+        [[params.skills.list]]
+        title = "Data Analysis"
+        [[params.skills.list.items]]
+        details = "Power BI"
+        [[params.skills.list]]
+        title = "Database Administration"
+        [[params.skills.list.items]]
+        details = "SQL (Oracle database 19g), NoSQL (MongoDB)"
+        [[params.skills.list]]
+        title = "Mobile development"
+        [[params.skills.list.items]]
+        details = "Kotlin/Android Studio"
+        [[params.skills.list]]
+        title = "Game development & AR & VR"
+        [[params.skills.list.items]]
+        details = "Unity"
+        [[params.skills.list]]
+        title = "Internet of things (Iot)"
+        [[params.skills.list.items]]
+        details = "node-red, Tinkercad, Wokwi, MQTT"
+        [[params.skills.list]]
+        title = "Oracle Cloud"
+        [[params.skills.list.items]]
+        details = "VPC/Autonomous Databases/Functions/Compute"
+        [[params.skills.list]]
+        title = "AWS cloud"
+        [[params.skills.list.items]]
+        details = "Sagemaker/Lambda/step functions/S3/EC2"
+        [[params.skills.list]]
+        title = "Project Management"
+        [[params.skills.list.items]]
+        details = "Scrum/Kanban/Jira/PERT/ITIL/CMMI..."
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Soft Skills"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Design thinking: Coursera Certified"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "TeamWork and Collaborative Effort"
         [[params.skills.list.items]]
         details = "Strong problem solver"
         [[params.skills.list.items]]
